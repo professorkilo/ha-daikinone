@@ -7,7 +7,7 @@ readme = "README.md"
 requires-python = ">= 3.14.2"
 
 dependencies = [
-    "homeassistant~=2026.4.0",
+    "homeassistant>=2026.4,<2026.8",
     "pydantic~=2.13.1",
     "backoff~=2.2.1"
 ]
